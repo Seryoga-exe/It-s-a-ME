@@ -345,6 +345,27 @@ body {
   text-decoration: underline;
 }
 
+/* Выделенная карточка — для реальных коммерческих проектов */
+.project-card.featured {
+  border: 2px solid var(--accent);
+  box-shadow: 0 8px 30px var(--shadow-accent-2);
+  position: relative;
+}
+
+.project-card.featured::before {
+  content: "★ Реальный заказ";
+  position: absolute;
+  top: -12px;
+  left: 20px;
+  background: var(--gradient-accent);
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.2rem 0.7rem;
+  border-radius: 20px;
+  letter-spacing: 0.5px;
+}
+
 /* КОНТАКТЫ */
 .contact-text {
   text-align: center;
