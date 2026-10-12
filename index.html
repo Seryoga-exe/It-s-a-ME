@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Сергей Лакатош — Программист</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ФОН -->
+  <div class="bg-gradient"></div>
+
+  <!-- ПЕРЕКЛЮЧАТЕЛЬ ТЕМЫ -->
+  <button class="theme-toggle" id="themeToggle" aria-label="Переключить тему">
+    <span class="theme-icon">☀️</span>
+  </button>
+
+  <!-- ШАПКА -->
+  <header class="hero">
+    <div class="hero-content">
+      <div class="avatar">СЛ</div>
+      <h1>Сергей Лакатош</h1>
+      <p class="subtitle">Студент-программист · Тулун, Иркутская область</p>
+      <p class="tagline">Быстро обучаюсь · Использую нейросети в работе · Готов к удалённым проектам</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">Мои проекты</a>
+        <a href="#contact" class="btn btn-secondary">Связаться</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- О СЕБЕ -->
+  <section class="section" id="about">
+    <h2>Обо мне</h2>
+    <div class="about-grid">
+      <div class="about-card">
+        <div class="icon">🎓</div>
+        <h3>Образование</h3>
+        <p>Студент-отличник направления «Информационнае системы и программирование». Совмещаю учёбу с практикой.</p>
+      </div>
+      <div class="about-card">
+        <div class="icon">⚡</div>
+        <h3>Быстро учусь</h3>
+        <p>Легко осваиваю новые технологии. Использую ИИ-инструменты для ускорения разработки и отладки кода.</p>
+      </div>
+      <div class="about-card">
+        <div class="icon">💪</div>
+        <h3>Опыт работы</h3>
+        <p>Пол года на металлобазе (5/2). Готов к физическому труду, но предпочитаю умственные задачи.</p>
+      </div>
+      <div class="about-card">
+        <div class="icon">🌐</div>
+        <h3>Формат работы</h3>
+        <p>Удалённо или гибкий график. Готов брать задачи на неполную занятость.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- НАВЫКИ -->
+  <section class="section" id="skills">
+    <h2>Навыки</h2>
+    <div class="skills-grid">
+      <div class="skill">
+        <span class="skill-name">Python</span>
+        <div class="skill-bar"><div class="skill-fill" data-width="50%"></div></div>
+      </div>
+      <div class="skill">
+        <span class="skill-name">JavaScript</span>
+        <div class="skill-bar"><div class="skill-fill" data-width="60%"></div></div>
+      </div>
+	  <div class="skill">
+        <span class="skill-name">C#</span>
+        <div class="skill-bar"><div class="skill-fill" data-width="75%"></div></div>
+      </div>
+      <div class="skill">
+        <span class="skill-name">HTML / CSS</span>
+        <div class="skill-bar"><div class="skill-fill" data-width="85%"></div></div>
+      </div>
+      <div class="skill">
+        <span class="skill-name">Git / GitHub</span>
+        <div class="skill-bar"><div class="skill-fill" data-width="45%"></div></div>
+      </div>
+      <div class="skill">
+        <span class="skill-name">Работа с API</span>
+        <div class="skill-bar"><div class="skill-fill" data-width="60%"></div></div>
+      </div>
+      <div class="skill">
+        <span class="skill-name">Нейросети / AI-инструменты</span>
+        <div class="skill-bar"><div class="skill-fill" data-width="95%"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ПРОЕКТЫ -->
+  <section class="section" id="projects">
+    <h2>Проекты</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <div class="project-header">🤖</div>
+        <h3>Telegram-бот</h3>
+        <p>Бот для погоды и напоминаний на Python. Использует открытые API.</p>
+        <span class="tech">Python · API</span>
+      </div>
+      <div class="project-card">
+        <div class="project-header">🕸️</div>
+        <h3>Парсер данных</h3>
+        <p>Скрипт для сбора и обработки данных с сайтов. Сохраняет результат в CSV.</p>
+        <span class="tech">Python · BeautifulSoup</span>
+      </div>
+      <div class="project-card">
+        <div class="project-header">💻</div>
+        <h3>Сайт-лендинг</h3>
+        <p>Адаптивный одностраничный сайт для вымышленной кофейни.</p>
+        <span class="tech">HTML · CSS · JS</span>
+      </div>
+    </div>
+    <p class="projects-note">Полный код проектов — в моём <a href="https://github.com/Seryoga-exe" target="_blank">GitHub</a>.</p>
+  </section>
+
+  <!-- КОНТАКТЫ -->
+  <section class="section" id="contact">
+    <h2>Связаться со мной</h2>
+    <p class="contact-text">Открыт к предложениям о работе и фриланс-заказам. Отвечаю быстро.</p>
+    <div class="contact-links">
+      <a href="https://t.me/@Seryoga_exe" target="_blank" class="contact-btn">✈️ Telegram</a>
+      <a href="https://github.com/Seryoga-exe" target="_blank" class="contact-btn">🐙 GitHub</a>
+      <a href="mailto:art4monov2006@gmail.com" class="contact-btn">✉️ Email</a>
+      <a href="https://fl.ru/users/art4monov200620" target="_blank" class="contact-btn">💼 FL.ru</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2026 Иван Иванов. Сделано с помощью HTML, CSS и нейросетей.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
